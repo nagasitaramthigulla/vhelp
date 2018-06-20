@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bvrit.bvrithelp.Library"
+    android:id="@+id/library">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/library" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=
+                    "On all working days : 8 am to 11 pm\n
+Circulation                : 9 am to 5 pm\n
+Reference                 : 8 am to 11 pm\n
+On Sundays              : 11 am to 4 pm\n"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   The Institute has established a spacious Library and Information Centre in the Saraswati Block with an area of 1030 Sqm.\n\n
+   It is divided into different sections like Stack area, Reading room, Reference Section, Digital Library, Audio Visual Section, Technical Processing Section, Periodical Section and Reprographic Section, etc.\n\n
+   It is having the collection of 66214 volumes.\n\n
+   It is subscribing to more than 10142+ online e-journals like IEEE, Springer (CIVIL and MECH), Elsevier (CHE), J-Gate (Engineering and Technology), J-Gate (Social and Management Sciences), DELNET/NDL and 236 (Print) Indian and International Journals and Magazines.\n\n
+   It has been automated House Keeping Operations by using SOUL Software. Established Digital library for E-resources of Information and Communication Technology (ICT)."
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Info:"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ms. K. Sujatha Kumari"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (Cheif Librarian)"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+918096313883\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. MSSV Prasada Raju"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (Librarian)"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+919951455164\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. B. Kumara Swami"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (Graduate Librarian)"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+919963300743\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. PB Danava Rao"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (Assistant Librarian)"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+918179502119\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. A. Srinivas"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (Library Assistant)"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+919492045303\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation"
+        android:layout_gravity="start"/>
+</android.support.v4.widget.DrawerLayout>

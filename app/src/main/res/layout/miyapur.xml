@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bvrit.bvrithelp.MIYAPUR">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/m1"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="1M-DARGA"
+                android:background="@color/colorAccent"
+                android:onClick="miyapurinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/m1view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m1"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bhagayya(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/n1call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9959520815"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr.Varun(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9494226711\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Darga (7:20am) \n2)Gachibowli X Road(7:28) \n3)Kondapur(7:30) \n4)Kothaguda Chowrasta(7:32) \n5)Hafeezpet(7:37) \n6)Allwyn Colony(7:40) \n7)Miyapur Bus Stop(7:43) \n8)BVRIT (9:00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/m2"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="2M-Central University TSRTC Depot"
+                android:background="@color/colorAccent"
+                android:onClick="miyapurinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/m2view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m2"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Krishna(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/m2call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9177990997"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vijaykumar Mantri(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9704632518\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Central University TSRTC Depot(7:10) \n2)Gulmohaar Park(7:18) \n3)Railway Station(7:25) \4)Railway Quarters(7:30) \n5)Lingampalli(7:35) \n6)Gangaram(7:40) \n7)Allwyan X Road(7:45) \n8)Miyapur Bus Stop(7.50) \n9)BVRIT (9:00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/m3"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="3M- BEERAM GUDA"
+                android:background="@color/colorAccent"
+                android:onClick="miyapurinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/m3view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m3"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Raju(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/n3call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 8106749806"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ch.Madhu Babu(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9848854358\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Beeram Guda(7:23) \n2)Lingampally(7:30) \n3)Madinaguda(7:38) \n4)Alwyan Colony(7:40) \n5)Miyapur Bus Stop( 7:43) \n6)Bollaram X Road(7:53) \n7)BVRIT(9.00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/m4"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="4M-Hyder Nagar"
+                android:background="@color/colorAccent"
+                android:onClick="miyapurinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/m4view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m4"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Swamy(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/m4call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9032522996"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shilpa(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9966651744\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Hyder Nagar(7:30) \n2)Miyapur X Road(7:40) \n3)Chanda Nagar(7:45) \n4)Bheeram Guda khaman(7:50) \n5)Raghavendra Colony(7:55) \n6)Krishna Reddy Pet(8:00) \n7)BVRIT(9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/m5"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="5M-R.C.PURAM"
+                android:background="@color/colorAccent"
+                android:onClick="miyapurinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/m5view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m5"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sriramulu(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/m5call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9573378199"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shanker(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9492234696\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)R.C. Puram(7:20) \n2)Ashoknagar(7:25) \n3)Lingampally(7:30) \n4)Madinaguda(7:38) \n5)Alwyan Colony(7:43) \n6)Miyapur Bus Stop( 7:48) \n7)BVRIT(9.00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/m6"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="6M-R.C.PURAM"
+                android:background="@color/colorAccent"
+                android:onClick="miyapurinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/m6view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m6"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mallesh(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/m6call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9949886543"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="S.Srinivasarao(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9966191562\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)R.C. Puram(7:20) \n2)Beeram Guda(7:25) \n3)Chandanagar(7:32) \n4)Madinaguda(7:38) \n5)Miyapur Bus Stop( 7:43) \n6)JP Nagar(7:47) \n7)BVRIT(9.00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/m7"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="7M-R.C.PURAM"
+                android:background="@color/colorAccent"
+                android:onClick="miyapurinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/m7view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/m7"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pandu(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/m7call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9705300107"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="B.Shyam Babu(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9618368892\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)R.C. Puram(7:20) \n2)Ashok Nagar(7:25) \n3)Lingampally(7:30) \n4)Madinaguda(7:38) \n5)Alwyn Colony( 7:43) \n6)Miyapur Bus Stop(7:48) \n7)BVRIT(9.00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout>

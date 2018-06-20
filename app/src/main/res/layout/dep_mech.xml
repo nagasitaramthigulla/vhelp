@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bvrit.bvrithelp.DepMECH">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button android:id="@+id/mechhod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOD"
+                android:onClick="depinfo"
+                android:background="@color/colorAccent"
+                android:layout_margin="4sp"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/mechhodview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mechhod"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200sp"
+                        app:srcCompat="@drawable/mkv"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prof. Dr. V. Murali Krishna"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textStyle="italic"
+                        android:text="HOD MECH Dept."
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\n+919848419441\n"
+                        android:textAlignment="center"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="muralikrishna.vemula@bvrit.ac.in\n"
+                        android:textAlignment="center"
+                        android:clickable="true"
+                        android:autoLink="email"
+                        android:textColorLink="@color/blue"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" PhD: Heat Transfer JNTUH \n M.Tech:Thermal Engineering JNTUH \n B.Tech: Mechanical Engineering Nagarjuna University"/>
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+            <Button android:id="@+id/mechfaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty"
+                android:onClick="depinfo"
+                android:background="@color/colorAccent"
+                android:layout_margin="4sp"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/mechfacultyview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mechfaculty"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Dr. K.V.N. Srinivasa Rao ,Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919490223849\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Dr.V.V.N.R. Prasada Raju ,Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="drramaraju.vadlamudi@bvrit.ac.in\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="email"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Dr. A. Padma Rao ,Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919848365859\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Manzoor Hadi , Associate Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919849613506 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. M. Trivikrama Sankar , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919492234696 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mrs. A. Haritha Reddy , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9701487777  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mrs. M. Sireesha , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9949996605 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. P. Lokesh , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9704713479\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. B. Vijay Kiran , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919908676630 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. D. V. R. Praveen , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9949784751 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. S. Ravinder Reddy , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+918500673708 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+918885463330 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr N. Kiran Kumar , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 8106713553 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. P. Naresh Kumar Reddy , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+917288888963 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Waseem Ahamed , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 8500696336 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. P. Anil Babu , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919985131144 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Dr. A. Varun , Associate Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919494226711 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. T. Vijaya Sarathi , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919348245024 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Kopppala Rama Siva Reddy ,Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9493035689 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. J. Kanteyya , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="kanteyyajambayya.a@bvrit.ac.in\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="email"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Chandra Naga Sekhar , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="chandranagasekhar.y@bvrit.ac.in\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="email"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. B. Syam Babu , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9618368892 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. V. Veeranna , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="veeranna.v@bvrit.ac.in\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="email"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mrs. G. Keerthi , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 8341517877  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Ande Raghu , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9490972896 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr.M.Sandeep Kumar, Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 7659004440 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. S. Udaykumar , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+917204893533  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Ratna Kumar K , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919985618137 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Mahesh kumar Toran, Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+917353665557  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. G R Krishna prasad yadav ,Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919032256588  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. Supreeth. P , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 7680009203   \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Sangameshwar Patil  ,Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919902405558 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. Sangamesh V P , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919494420915    \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Ravikant B Mulage  , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+918951542247 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Akshay Kulkarni  , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919972032265  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. Alok Kumar Garje , Assistant Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919441615430  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Dr. V. Lakshminarayanan Varadharajan , Professor"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 8220008480   \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. V. Babu Rao ,Senior Lab Technician"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91  9849521018\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. M. Krishna Prasad ,Senior Lab Technician "
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 8142567942  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. K. Venkata Ramappa ,Lab Technician"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9573588576  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. V. Yadagiri Goud ,Lab Technician"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="yadigirigoud.v@bvrit.ac.in\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="email"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr.Y. Ravi Kumar  ,Lab Technician"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+919505246326  \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Mr. CH. Ramesh ,Lab Assistant"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9912458400\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. B. Ramesh ,Lab Assistant"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91 9912842919 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. D. Anjaneyulu ,Lab Technician"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+91  9395311549 \n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" Mr. K. Hariprasad ,Lab Assistant"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="+917993405916\n"
+                       android:textColorLink="@color/blue"
+                       android:clickable="true"
+                       android:autoLink="phone"
+                       android:textSize="15dp"/>
+               </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.DrawerLayout>

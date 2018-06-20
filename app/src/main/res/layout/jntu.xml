@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bvrit.bvrithelp.JNTU">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j1"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="1J-A.G COLONY"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j1view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j1"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sudhakar Reddy(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j1call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9550809974"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="J. Suman(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9966667244\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)A.G. Colony(7:20) \n2)Erragadda(7:27) \n3)Moosapet(7:35) \n4)Kukatpally(7:40) \n5)KPHB(7:45) \n6)Pragatinagar (7:55) \n7)BVRIT (9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/j2"
+                android:text="2J-KALYAN NAGAR"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j2view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j2"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Venkateswara Reddy(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j2call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9985975546"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="M. Krishna Prasad(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 8142567942\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Kalyan Nagar(7:10) \n2)Motinagar(7:15) \n3)PR Nagar(7:20) \n4) Erragadda Fly over(7:25) \n5)Bharat Nagar(7:30) \n6)Kukatpally(7:40) \n7)HMT Hills(7:50) \n8)BVRIT (9:00)"
+
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3J-ESI"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j3view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j3"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Srinivas Reddy(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j3call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 8096108677"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Durga Prasad(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9290901526\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)ESI(7:25) \n2)Metro(7:35) \n3)South India shopping Mall(7:45) \n4)JNTU(7:48) \n5)Pragathinagar (7:58) \n6)BVRIT (9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5J-BALAJI NAAGAR"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j5view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j5"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tukaram(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j5call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9573088291"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Anjith Kumar(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9704851257\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Balaji Nagar(7:28) \n2)Reliance Fresh(7:34) \n3)Allwyn Colony (7:40) \n4)South India shopping Mall(7:45) \n5)JNTU(7:50) \n6)Pragathi Nagar(7:55) \n7)BVRIT (9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6J-V V NAGAR KAMAN"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j6view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j6"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Laxman(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j6call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9177409014"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="K.Purnachand(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9705690202\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)V V Nagar Kaman (7:32) \n2)KPHB(7:38) \n3)HMT Shatavahana Nagar(7:43) \n4)Jalavayu Vihar(7:50) \n5)Pragathinagar (7:55) \n6)BVRIT (9:00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7J-VIVEKANANDA NAGAR"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j7view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j7"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Javeed(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j7call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9912841762"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Naga Parameswari(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9866267746\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1)Vivekananda Nagar(7:30) \n2)Allwyn Colony(7:40) \n3)South India shopping Mall(7:45) \n4)JNTU(7:50) \n5)Pragathinagar (7:55) \n6)BVRIT (9:00)."
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
+
+
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8J-MIG BUS STOP"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j8view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j8"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Veeresham(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j8call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9963898068"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr.B.Prabhakar(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9963159601\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)MIG Bus Stop(7:30) \n2)Malaysian Township Circle (7:35) \n3)Temple Bus Stop (7:40) \n4)Remedy Hospital(7:45) \n5)HMT Hills(7:50) \n6)Pragathi Nagar(7:55) \n7)BVRIT(9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9J-MIG 9th PHASE"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j9view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j9"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Narshima(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j9call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9441142293"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jagadesh(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9948081566\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)MIG 9th Phase(7:30) \n2)MIG Bus Stop(7:37) \n3)Bank of Maharastra(7:40) \n4)JNTU(7:45) \n5)HMT Hills(7:50) \n6)Pragatinagar(7:55) \n7)BVRIT (9:00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10J METRO"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j10view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j10"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prasad(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j10call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9948868772"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kausalya Nandan(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9966636305\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Metro (7:30) \n2)Kukatpally(7:35) \n3)Reliance Fresh(7:40) \n4)Alwyn Colony Chowrastha (7:45) \n5)South India Shopping Mall (7.50) \n6)JNTU (7:54) \n7)Pragatinagar (8:00) \n8)BVRIT (9:00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/j11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11J-METRO"
+                android:background="@color/colorAccent"
+                android:onClick="jntuinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/j11view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/j11"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pasha(Driver)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/j11call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9550184570"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="V.Kishore(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 7893847227\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Metro(7:35) \nKukatpally(7:40) \n2)South India shopping Mall(7:45) \n3)JNTU(7:50) \n4)HMT Hills(7:55) \n5)Pragathinagar (8:00) \n6)BVRIT (9:00)."
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout>

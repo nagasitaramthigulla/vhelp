@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bvrit.bvrithelp.SECUNDRABAD">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button android:layout_margin="4dp"
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="1S-Dilshuknagar"
+        android:background="@color/colorAccent"
+        android:onClick="secundrabadinfo"/>
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/s1view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s1"
+        app:ael_expanded="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rashad(Driver)"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 9052786757"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. P.Srikanth Rao(Faculty Incharge)"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" +91 9949222353\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)Dilshuknagar(7:00) \n2)Amberpet(7:07) \n3)Vidhya Nagar(7:14) \n4)RTC X Road(7:18) \n5)Lower Tankbund(7:22) \n6)Ranigunj(7:27) \n7)New Bowenpally PS(7:40) \n8)BVRIT(9:00)."
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    <Button android:layout_margin="4dp"
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="2S-KOTI"
+        android:background="@color/colorAccent"
+        android:onClick="secundrabadinfo"/>
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/s2view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s2"
+        app:ael_expanded="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Babu Bhai(Driver)"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 9912494650"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manzoor Hadi(Faculty Incharge)"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" +91 9849613506\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)Koti(6:55) \n2)Kachiguda(7:05) \n3)Himayathnagar(7:10) \n4)Tankbund(7:15) \n5)Old Bowenpally(7:25) \n6)Suchitra(7:40) \n7)Kompally(7:50) \n8)BVRIT(9:00)."
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+    <Button android:layout_margin="4dp"
+        android:id="@+id/s3"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="3S-UPPAL X ROAD"
+        android:background="@color/colorAccent"
+        android:onClick="secundrabadinfo"/>
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/s3view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s3"
+        app:ael_expanded="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Showkath(Driver)"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 9030912772"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="J. V. Ramana(Faculty Incharge)"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" +91 9963683672\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)Uppal X Road(7:08) \n2)Habsiguda(7:12) \n3)Tarnaka(7:15) \n4)Sangeeth(7:25) \n5)Diamond point(7:35) \n6)Old Bowenpally(7:37) \n7)Kompally(7:50) \n8)BVRIT(9:00)."
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+    <Button android:layout_margin="4dp"
+        android:id="@+id/s4"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="4S-KOTI WOMEN's COLLEGE"
+        android:background="@color/colorAccent"
+        android:onClick="secundrabadinfo"/>
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/s4view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s4"
+        app:ael_expanded="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Narsingh Rao(Driver)"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 7386776217"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T. Bharat Kumar(Faculty Incharge)"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" +91 8790310859\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)Koti Women’s College (6:58) \n2)RTC X Road(7:08) \n3)Padmarao Nagar(7:15) \n3)Tirumalagiri(7:30) \n4)New Alwal(7:36) \n5)Risala Bazar (7:40) \n6)Bollaram(7:45) \n7)BVRIT (9:00)."
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+    <Button android:layout_margin="4dp"
+        android:id="@+id/s5"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="5S-JBS"
+        android:background="@color/colorAccent"
+        android:onClick="secundrabadinfo"/>
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/s5view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s5"
+        app:ael_expanded="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Srinivas(Driver)"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 9848995843"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Srinivas Rao(Faculty Incharge)"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" +91  8897946874\n"
+                android:clickable="true"
+                android:autoLink="phone"
+                android:textColorLink="@color/blue"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)JBS(7:18) \n2)Diamond Point(7:23) \n3)Old Bowenpally(7:25) \n4)Ashok Garden(7:30) \n5)Suchitra(7:40) \n6)Bank Colony(7:42) \n7)Qutbullapur(7:45) \n8)Muncipal Office (7:48) \n9)BVRIT(9:00)"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout>

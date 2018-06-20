@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bvrit.bvrithelp.TrainingPlacements"
+    android:id="@+id/placements">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Training and placement Cell is committed to provide all possible assistance to its students in their efforts to find employment. This commitment is demonstrated by the existence of a full time professor in charge. The benefits of this assistance are reflected in the preparation of students who were able to secure lucrative and esteemed positions in recent years. The Training and Placement service operates year round to facilitate contacts between companies and graduates. Staffs are available to respond to student's question and concern of all kinds. The aim is to ensure that students have the information and skills necessary for an effective job search.\n"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nSatish Paruchuri, Director-Industry Relations"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9949485552"
+            android:clickable="true"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="satishchandra.p@srivishnu.edu.in\n"
+            android:clickable="true"
+            android:autoLink="email"
+            android:textColorLink="@color/blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prof. Ch. Madhu Babu, Training and Placement Officer"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9949433572  "
+            android:clickable="true"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="placements@bvrit.ac.in\n"
+            android:clickable="true"
+            android:autoLink="email"
+            android:textColorLink="@color/blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ch. Naga Parameshwari, Placement Incharge"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91 9866267746\"
+            android:clickable="true"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="parameshwari.chekuri@bvrit.ac.in\n"
+            android:clickable="true"
+            android:autoLink="email"
+            android:textColorLink="@color/blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Niladri Dey, Placement Incharge"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91 9542601772\"
+            android:clickable="true"
+            android:autoLink="phone"
+            android:textColorLink="@color/blue"/>
+    </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation"
+        android:layout_gravity="start"/>
+</android.support.v4.widget.DrawerLayout>

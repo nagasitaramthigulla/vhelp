@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bvrit.bvrithelp.NIZAMPET">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/n1"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="1N-MADHAPUR(PS)"
+                android:background="@color/colorAccent"
+                android:onClick="nizampetinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/n1view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n1"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dasu(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/n1call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9000543997"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bangaraju(Faculty Incharge)"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9490983158\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Madhapur P S(7:15) \n2)Cyber Tower Bridge(7:20) \n3)4th Phase(7:25) \n4)Forum Mall(7:30) \n5)JNTU(7:40) \n6)Nizampet X Road(7:45) \n7)Rajiv Gandhi Nagar(7:50) \n8)BVRIT(9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/n2"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="2N-  KPHB 9th PHASE"
+                android:background="@color/colorAccent"
+                android:onClick="nizampetinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/n2view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n2"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="B.Tukaram(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/n2call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 8686256867"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shyambabu(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9949793230\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)KPHB 9th Phase(7:30) \n2)Vasanth Nagar(7:35) \n3)Hyder Nagar(7:40) \n4)Nizampet Village(7:45) \n5)Rajiv Gandhi Nagar(7:50) \n6)BVRIT (9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button android:layout_margin="4dp"
+                android:id="@+id/n3"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="3N- Hydernagar"
+                android:background="@color/colorAccent"
+                android:onClick="nizampetinfo"/>
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/n3view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/n3"
+                app:ael_expanded="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Krishna(Driver)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView android:id="@+id/n3call"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="+91 9603368804"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="P.Lokesh(Faculty Incharge)"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" +91 9704713479\n"
+                        android:clickable="true"
+                        android:autoLink="phone"
+                        android:textColorLink="@color/blue"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1)Hydernagar(7:35) \nNizampet X Rds(7:37) \n2)Nijampet Village(7:42) \n3)Rajeev Gandhi Nagar(7:45) \n4)Bachupally(7:50) \n5)Bowrampet(8:05) \n6)BVRIT(9:00)"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout>
+
